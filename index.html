@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Formulário de Pesquisa
+        </h1>
+    </header>
+
+    <main>
+        <article>
+            <p>
+
+            </p>
+            <p>* Nome: 
+                <input type="text" name="txtNome" id="txtNome" placeholder="Informe o seu nome" size="40">
+            </p>
+            <p>* Email:
+                <input type="email" name="txtEmail" id="txtEmail" placeholder="Informe o seu email" size="40">
+            </p>
+            <p>* Idade:
+                <input type="number" name="txtIdade" id="txtIdade" placeholder="Informe a sua idade" size="40">
+            </p>
+            <p>* Qual a sua situação atual: 
+                <select name="situacao_atual" id="situacao_atual">
+                    <option value="estudante">Estudante</option>
+                    <option value="empregado">Empregado</option>
+                    <option value="desempregado">Desempregado</option>
+                </select>
+            </p>
+            <p>* Com qual frequeência você visita o nosso site: 
+                <p><input type="radio" name="visita" id="todoDia"> Todo dia</p>
+                <p><input type="radio" name="visita" id="frequentemente"> Frequentemente</p>
+                <p><input type="radio" name="visita" id="raramente"> Raramente</p>
+            </p>
+
+            <p>Deixe sua opinião acerca do site: 
+                <textarea name="opiniao" id="opiniao" cols="50" rows="10" maxlength="500"></textarea>
+            </p>
+            <p>
+                <input type="button" value="Enviar" onclick="enviar()">
+            </p>
+            <p id="obs">
+                <!-- OS CAMPOS MARCADOS NÃO PODER FICAR VAZIOS OU DESMARCADOS-->
+            </p>
+        </article>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
