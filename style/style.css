@@ -50,6 +50,10 @@ article p {
     padding: 8px;
 }
 
+p.obrigatorio::first-letter {
+    color: red;
+}
+
 article input {
     height: 18px;
 }
