@@ -50,7 +50,7 @@ article p {
     padding: 8px;
 }
 
-p.obrigatorio::first-letter {
+span {          /*  A TAG SPAN ESTÁ DELIMITANDO TODOS OS CARACTERES ESPECIAIS ASTERISCO( * ) */
     color: red;
 }
 
