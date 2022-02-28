@@ -24,30 +24,28 @@ header > h1{
 }
 
 article {
-    /*
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.0));
-    backdrop-filter: blur( 10px );
-    -webkit-backdrop-filter: blur(  10px ); */
     background-color: #0D1117;   
+
+    border-radius: 5px;
+    width: 660px;
+    height: 550px;
     margin-top: 10px;
     
-    border-radius: 5px;
-    width: 600px;
-    height: 580px;
+
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto;
-
-    padding: 10px;
-    text-align: center;
-
 }
 
 article p {
-    padding: 8px;
+    padding: 5px;
+}
+
+article p.alinhado {
+    text-align: center;
 }
 
 span {          /*  A TAG SPAN ESTÁ DELIMITANDO TODOS OS CARACTERES ESPECIAIS ASTERISCO( * ) */
@@ -61,5 +59,10 @@ article input {
 textarea {
     resize: none;   /* DESABILITA A OPÇÃO DO USUÁRIO PODER REDIMENSIONAR A CAIXA DE TEXTO*/
     border-radius: 3px;
-    padding: 3px;
+    padding: 5px;
+    margin-top: 5px;
+}
+p#obs {
+    color: red;
+    font-size: 12px;
 }
