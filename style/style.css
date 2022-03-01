@@ -67,3 +67,25 @@ p#obs {
     color: red;
     font-size: 12px;
 }
+
+input[type="button"] {
+    font-size: 1.4em;
+    width: 75px;
+    height: 30px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-image: linear-gradient(#2e30c5, #665de7c0);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 500ms;
+}
+
+input[type="button"]:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+}   
+
